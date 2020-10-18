@@ -1,6 +1,7 @@
 Set-Location $env:HOMEPATH
 $dir=Get-Location
 $path=$dir.Path
+$istallator = 'zabbix_agent-4.0.25-windows-amd64-openssl.msi'
 $Distr = "https://www.zabbix.com/downloads/4.0.25/zabbix_agent-4.0.25-windows-amd64-openssl.msi"
 $Config = "https://github.com/metaphoriya/public/blob/main/zabbix/zabbix_agentd.conf"
 
