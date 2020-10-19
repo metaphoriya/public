@@ -1,4 +1,4 @@
-$ZBXHOSTNAME = Write-Host 'Enter zabbix host name'
+$ZBXHOSTNAME = Read-Host 'Enter zabbix host name'
 
 Set-Location $env:HOMEPATH
 $dir=Get-Location
