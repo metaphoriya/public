@@ -7,5 +7,3 @@ $ConfigUri = 'https://github.com/metaphoriya/public/blob/main/zabbix/zabbix_agen
 
 Invoke-WebRequest -Uri $InstallatorUri -OutFile $Istallator
 Invoke-WebRequest -Uri $ConfigUri
-
-zabbix_agentd.exe --config <ваш_файл_конфигурации> --uninstall
