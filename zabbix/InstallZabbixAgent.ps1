@@ -6,4 +6,4 @@ $InstallatorUri = 'https://www.zabbix.com/downloads/4.0.25/zabbix_agent-4.0.25-w
 
 Invoke-WebRequest -Uri $InstallatorUri -OutFile $Istallator
 
-msiexec /I $Istallator HOSTNAME=TEST SERVER=zabbix.vionix.xyz /qn
+msiexec /I $Istallator HOSTNAME=TEST SERVER=zabbix.vionix.xyz SERVERACTIVE=zabbix.vionix.xyz /qn
